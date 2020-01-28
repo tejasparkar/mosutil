@@ -1,0 +1,1 @@
+$(document).ready(function(){function o(){wintop=$(window).scrollTop(),t.each(function(){$elm=$(this),topcoords=$elm.offset().top,wintop>topcoords-.85*n?$elm.addClass("animated"):$elm.removeClass("animated")})}$('[data-toggle="tooltip"]').tooltip();var t=$(".animateblock"),n=$(window).height();$(document).height();$(window).scroll(function(){o()})});
